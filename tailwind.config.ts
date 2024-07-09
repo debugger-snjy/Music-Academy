@@ -29,7 +29,7 @@ const config: Config = {
                     },
                     "100%": {
                         opacity: '1',
-                        transform: "translate(-50%,-40%) scale(1)",
+                        transform: "translate(-20%,-40%) scale(2)",
                     },
                 },
             },
