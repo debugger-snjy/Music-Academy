@@ -5,6 +5,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicAcademyTestimonial from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
 
 // It is similar like the React Functional Component
 export default function Home() {
@@ -26,6 +27,8 @@ export default function Home() {
             {/* Adding the Upcoming Webinars */}
             <UpcomingWebinars />
 
+            {/* Adding the Instructors */}
+            <Instructors />
         </main>
     );
 }
