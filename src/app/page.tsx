@@ -3,6 +3,7 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import MusicAcademyTestimonial from "@/components/TestimonialCards";
 
 // It is similar like the React Functional Component
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
             {/* Adding the Sticky Scroll */}
             <WhyChooseUs />
 
+            {/* Adding the Testimonial Cards */}
+            <MusicAcademyTestimonial />
         </main>
     );
 }
