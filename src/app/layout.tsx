@@ -12,6 +12,9 @@ import { Inter } from "next/font/google";
 // Importing the Global CSS File
 import "./globals.css";
 
+// Importing the Navbar Component
+import Navbar from "@/components/Navbar";
+
 // Inter Font Variable
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,18 +27,21 @@ export const metadata: Metadata = {
 // Function to render the html content
 export default function RootLayout({
     children, // children are nothing but just react component, that we are getting from 'page.tsx'
-}: 
-// Defining the Readonly Children's as it is typescript
-Readonly<{
-    // Here we are defining the type of the children as it is typescript
-    children: React.ReactNode;
-}>) {
+}:
+    // Defining the Readonly Children's as it is typescript
+    Readonly<{
+        // Here we are defining the type of the children as it is typescript
+        children: React.ReactNode;
+    }>) {
     return (
-        <html lang="en">
+        // Adding the dark class to make the website default in Dark Mode (Will add toggle to Change Theme)
+        <html lang="en" className="dark">
             <body className={inter.className}>
-                
-                {/* Adding the Nav Bar Sample */}
-                <h2 className="text-center text-bold">Navigation Bar Will be Here</h2>
+
+                {/* Importing the Navbar Component From the Components Folder */}
+                <div className="relative w-full flex items-center justify-center ">
+                    <Navbar />
+                </div>
 
                 {children}
             </body>
