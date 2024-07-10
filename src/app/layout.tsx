@@ -14,6 +14,7 @@ import "./globals.css";
 
 // Importing the Navbar Component
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 // Inter Font Variable
 const inter = Inter({ subsets: ["latin"] });
@@ -44,6 +45,10 @@ export default function RootLayout({
                 </div>
 
                 {children}
+
+
+                {/* Importing the Footer Component From the Components Folder */}
+                <Footer />
             </body>
         </html>
     );
