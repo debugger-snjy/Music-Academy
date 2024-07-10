@@ -77,7 +77,7 @@ export const Menu = ({
             onMouseLeave={() => setActive(null)} // resets the state
 
             // Setting the Border Color for Navigation Menu Bar
-            className="relative rounded-full border border-black/[0.6]  dark:bg-black dark:border-white/[0.6] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+            className="relative rounded-full border border-black/[0.6]  dark:bg-black/90 dark:border-white/[0.6] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
         >
             {children}
         </nav>
