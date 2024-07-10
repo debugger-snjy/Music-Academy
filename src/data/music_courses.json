@@ -1,5 +1,5 @@
 {
-    "_comment":"This File will contain the Data that we are going to Use in the website, Further we can get the data from the API",
+    "_comment": "This File will contain the Data that we are going to Use in the website, Further we can get the data from the API",
     "courses": [
         {
             "id": 1,
@@ -9,7 +9,8 @@
             "price": 99.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f"
+            "image": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f",
+            "localImage": "/courses/guitar.png"
         },
         {
             "id": 2,
@@ -19,7 +20,8 @@
             "price": 109.99,
             "instructor": "Jane Smith",
             "isFeatured": false,
-            "image": "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf"
+            "image": "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf",
+            "localImage": "/courses/piano.png"
         },
         {
             "id": 3,
@@ -29,7 +31,8 @@
             "price": 119.99,
             "instructor": "Emily Johnson",
             "isFeatured": true,
-            "image": "https://images.unsplash.com/photo-1492879291357-620e858bd26a"
+            "image": "",
+            "localImage": "/courses/vocalist.png"
         },
         {
             "id": 4,
@@ -39,7 +42,8 @@
             "price": 129.99,
             "instructor": "Mike Brown",
             "isFeatured": false,
-            "image": "https://images.unsplash.com/photo-1593659193548-87ccecd13c94"
+            "image": "https://images.unsplash.com/photo-1593659193548-87ccecd13c94",
+            "localImage": "/courses/drumming.png"
         },
         {
             "id": 5,
@@ -49,7 +53,8 @@
             "price": 139.99,
             "instructor": "Chris Davis",
             "isFeatured": false,
-            "image": "https://images.unsplash.com/photo-1503853585905-d53f628e46ac"
+            "image": "https://images.unsplash.com/photo-1503853585905-d53f628e46ac",
+            "localImage": "/courses/jazz.png"
         },
         {
             "id": 6,
@@ -59,7 +64,8 @@
             "price": 149.99,
             "instructor": "Alex Wilson",
             "isFeatured": true,
-            "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745"
+            "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745",
+            "localImage": "/courses/music-prod.png"
         },
         {
             "id": 7,
@@ -69,7 +75,8 @@
             "price": 159.99,
             "instructor": "Samantha Miller",
             "isFeatured": false,
-            "image": "https://images.unsplash.com/photo-1593698054589-8c14bb66d2d4"
+            "image": "https://images.unsplash.com/photo-1593698054589-8c14bb66d2d4",
+            "localImage": "/courses/song-writing.png"
         },
         {
             "id": 8,
@@ -79,7 +86,8 @@
             "price": 169.99,
             "instructor": "Luke Harris",
             "isFeatured": true,
-            "image": "https://images.unsplash.com/photo-1653569397400-623b0189510a"
+            "image": "https://images.unsplash.com/photo-1653569397400-623b0189510a",
+            "localImage": "/courses/music-prod.png"
         },
         {
             "id": 9,
@@ -89,7 +97,8 @@
             "price": 179.99,
             "instructor": "Grace Lee",
             "isFeatured": false,
-            "image": "https://images.unsplash.com/photo-1460036521480-ff49c08c2781"
+            "image": "https://images.unsplash.com/photo-1460036521480-ff49c08c2781",
+            "localImage": "/courses/classical-music.png"
         },
         {
             "id": 10,
@@ -99,7 +108,8 @@
             "price": 189.99,
             "instructor": "Ethan Moore",
             "isFeatured": true,
-            "image": "https://images.unsplash.com/photo-1601266289415-e7339a97d19b"
+            "image": "https://images.unsplash.com/photo-1601266289415-e7339a97d19b",
+            "localImage": "/courses/blues.png"
         }
     ]
 }

@@ -15,11 +15,14 @@ interface Course {
     instructor: string,
     isFeatured: boolean,
     image: string,
+    localImage: string
 }
 
 function FeaturedCourses() {
 
-    const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
+    const featuredCourses = courseData.courses
+        .filter((course: Course) => course.isFeatured)
+        .map((course: Course) => course.localImage !== "" ? { ...course, image: course.localImage } : course)
 
     return (
         <div className="py-12 bg-gray-800">
@@ -32,7 +35,7 @@ function FeaturedCourses() {
                 <div className="mt-10 mx-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                         {
-                            featuredCourses && featuredCourses.map((course:Course)=>{
+                            featuredCourses && featuredCourses.map((course: Course) => {
                                 return (
                                     <div key={course.id}>
                                         <BackgroundGradient className="rounded-[22px] p-10   bg-white dark:bg-black">
@@ -50,7 +53,7 @@ function FeaturedCourses() {
                                             </p>
 
                                             <p className="text-base text-neutral-600 antialiased dark:text-neutral-400">
-                                               {course.description}
+                                                {course.description}
                                             </p>
                                             <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-md font-bold dark:bg-zinc-800">
                                                 <span>Buy now </span>
@@ -58,6 +61,7 @@ function FeaturedCourses() {
                                                     ₹ {course.price}
                                                 </span>
                                             </button>
+
                                         </BackgroundGradient>
                                     </div>
                                 )
