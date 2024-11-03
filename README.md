@@ -1,41 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Music Academy
+
+Music Academy is a visually stunning web application built using Aceternity UI. The platform leverages a variety of interactive UI components, such as animated tooltips, background effects, and card hover effects, to create an immersive user experience. Key features include a captivating Hero Section, informative Featured Courses, compelling Testimonial Cards, and a dynamic Upcoming Webinars section.
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+- Tailwind
+- Next JS
+- [Aceternity UI](https://ui.aceternity.com/)
 
 ## Getting Started
 
-First, run the development server:
+This section explains how to set up your project locally for development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed on your local machine:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js**: [Download and install](https://nodejs.org/)
+- **npm** or **yarn**: Comes bundled with Node.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+To install the project, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/debugger-snjy/Music-Academy
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Installing the Node Packages:**
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Running the Application:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   ```
 
+## Screenshots
 
-## UI Library Used : 
-- In this we are using the Aceternity UI and its components
-- Link : (Aceternity UI)[https://ui.aceternity.com/]
+Home Page:
+
+![Home Page](screenshots/MusicAcademy.png)
